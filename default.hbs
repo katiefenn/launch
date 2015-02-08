@@ -15,7 +15,7 @@
     <link rel="shortcut icon" href="{{asset "favicon.ico"}}">
 
     {{! Styles'n'Scripts }}
-    <link rel="stylesheet" type="text/css" href="{{asset "css/screen.css"}}" />
+    <link rel="stylesheet" type="text/css" href="{{asset "css/styles.css"}}" />
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
 
     {{! Ghost outputs important style and meta data with this tag }}
@@ -25,6 +25,16 @@
 
     {{! Everything else gets inserted here }}
     {{{body}}}
+
+    <div class="decoration">
+        <div class="decoration__exhaust"></div>
+        <div class="decoration__mask"></div>
+        <div class="decoration__gradient"></div>
+        <div class="decoration__vapour"></div>
+        <div class="decoration__shuttle"></div>
+        <div class="decoration__plume decoration__plume--large"></div>
+        <div class="decoration__plume decoration__plume--small"></div>
+    </div>
 
     <footer class="site-footer clearfix">
         <section class="copyright"><a href="{{@blog.url}}">{{@blog.title}}</a> &copy; {{date format="YYYY"}}</section>
