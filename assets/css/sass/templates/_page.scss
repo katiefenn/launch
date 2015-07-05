@@ -1,0 +1,20 @@
+body {
+	font-family: latolight, Verdana, Arial, sans-serif;
+}
+
+.content {
+    margin: 0 5px;
+
+    @media #{$medium} {
+    	margin: 0 20px 0  106px;
+    	max-width: 560px;
+    }
+
+    @media #{$large} {
+    	margin: 0 50px 0  250px;
+    }
+}
+
+.poweredby {
+	text-align: right;
+}

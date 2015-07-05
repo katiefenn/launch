@@ -1,0 +1,72 @@
+h1, h2, h3, h4 {
+    font-family: 'web_serveroffregular';
+    color: $heading-colour;
+
+    a {
+    	text-decoration: none;
+    }
+}
+
+h1 {
+    font-size: 2.074rem;
+    margin: 0 0 1rem 0;
+
+    @media #{$medium} {
+        font-size: 3.998rem;
+    }
+}
+
+h2 {
+    font-size: 1.728rem;
+    margin: 0 0 1rem 0;
+
+    @media #{$medium} {
+        font-size: 2.827rem;
+    }
+}
+
+h3 {
+    font-size: 1.44rem;
+    margin: 0 0 1rem 0;
+
+    @media #{$medium} {
+        font-size: 1.999rem;
+    }
+}
+
+h4 {
+    font-size: 1.2rem;
+    margin: 0 0 1rem 0;
+
+    @media #{$medium} {
+        font-size: 1.414rem;
+    }
+}
+
+.main-heading {
+    @extend .icon-logo;
+    margin: 0 7px;
+    z-index: 1;
+    font-size: 0;
+    width: 249px;
+    height: 95px;
+
+    @media #{$medium} {
+        display: inline-block;
+        position: fixed;
+        transform: translateZ(0px);
+        top: 146px;
+        left: -116px;
+        transform: rotate(-90deg);
+        width: 333px;
+        height: 127px;
+    }
+
+    @media #{$large} {
+        width: 445px;
+        height: 170px;
+        top: 164px;
+        left: -30px;
+        padding: 1px;
+    }
+}
