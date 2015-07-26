@@ -19,23 +19,23 @@ h1, h2, h3, h4 { font-family: 'web_serveroffregular'; color: #eeeeee; }
 h1 a, h2 a, h3 a, h4 a { text-decoration: none; }
 
 h1 { font-size: 2.074rem; margin: 0 0 1rem 0; }
-@media (min-width: 480px) { h1 { font-size: 3.998rem; } }
+@media (min-width: 670px) { h1 { font-size: 3.998rem; } }
 
 h2 { font-size: 1.728rem; margin: 0 0 1rem 0; }
-@media (min-width: 480px) { h2 { font-size: 2.827rem; } }
+@media (min-width: 670px) { h2 { font-size: 2.827rem; } }
 
 h3 { font-size: 1.44rem; margin: 0 0 1rem 0; }
-@media (min-width: 480px) { h3 { font-size: 1.999rem; } }
+@media (min-width: 670px) { h3 { font-size: 1.999rem; } }
 
 h4 { font-size: 1.2rem; margin: 0 0 1rem 0; }
-@media (min-width: 480px) { h4 { font-size: 1.414rem; } }
+@media (min-width: 670px) { h4 { font-size: 1.414rem; } }
 
 .main-heading { margin: 0 7px; z-index: 1; font-size: 0; width: 249px; height: 95px; }
-@media (min-width: 480px) { .main-heading { display: inline-block; position: fixed; transform: translateZ(0px); top: 146px; left: -116px; transform: rotate(-90deg); width: 333px; height: 127px; } }
+@media (min-width: 670px) { .main-heading { display: inline-block; position: fixed; transform: translateZ(0px); top: 146px; left: -116px; transform: rotate(-90deg); -webkit-transform: rotate(-90deg); width: 333px; height: 127px; } }
 @media (min-width: 700px) { .main-heading { width: 445px; height: 170px; top: 164px; left: -30px; padding: 1px; } }
 
 .decoration { display: none; overflow: hidden; }
-@media (min-width: 480px) { .decoration { display: block; } }
+@media (min-width: 670px) { .decoration { display: block; } }
 
 .decoration__exhaust { position: fixed; transform: translateZ(0px); width: 75px; height: 250px; bottom: -50px; left: 20px; background-repeat: repeat-y; }
 @media (min-width: 700px) { .decoration__exhaust { width: 100px; height: 100%; bottom: auto; top: 0px; left: -9px; } }
@@ -68,7 +68,7 @@ h4 { font-size: 1.2rem; margin: 0 0 1rem 0; }
 body { font-family: latolight, Verdana, Arial, sans-serif; }
 
 .content { margin: 0 5px; }
-@media (min-width: 480px) { .content { margin: 0 20px 0  106px; max-width: 560px; } }
+@media (min-width: 670px) { .content { margin: 0 20px 0  106px; max-width: 560px; } }
 @media (min-width: 700px) { .content { margin: 0 50px 0  250px; } }
 
 .poweredby { text-align: right; }
