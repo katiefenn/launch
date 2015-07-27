@@ -53,17 +53,18 @@ h4 {
 
     @media #{$medium} {
         display: inline-block;
-        position: fixed;
+        position: absolute;
         transform: translateZ(0px);
-        top: 146px;
-        left: -116px;
+        top: 138px;
+        left: -101px;
         transform: rotate(-90deg);
         -webkit-transform: rotate(-90deg);
-        width: 333px;
-        height: 127px;
+        width: 300px;
+        height: 114px;
     }
 
     @media #{$large} {
+        position: fixed;
         width: 445px;
         height: 170px;
         top: 164px;

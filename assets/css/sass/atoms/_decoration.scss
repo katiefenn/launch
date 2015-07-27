@@ -12,9 +12,9 @@
     position: fixed;
     transform: translateZ(0px);
     width: 75px;
-    height: 250px;
-    bottom: -50px;
-    left: 20px;
+    height: 100%;
+    top: 0px;
+    left: 15px;
     background-repeat: repeat-y;
 
     @media #{$large} {
@@ -28,17 +28,17 @@
 
 .decoration__shuttle {
     @extend .icon-shuttle;
-    position: fixed;
+    position: absolute;
     transform: translateZ(0px);
     width: 44px;
     height: 100px;
-    bottom: 210px;
+    top: 383px;
     left:30px;
 
     @media #{$large} {
         width: 58px;
         height: 133px;
-        position: absolute;
+        top: auto;
         bottom: 0px;
         left: 0px;
     }
@@ -48,30 +48,32 @@
     @extend .icon-vapour;
     width: 116px;
     height: 72px;
-    position: fixed;
+    position: absolute;
     transform: translateZ(0px);
-    bottom: 155px;
+    top: 462px;
     left: -7px;    
 
     @media #{$large} {
         width: 155px;
         height: 96px;
-        position: absolute;
+        top: auto;
         bottom: -72px;
         left: -39px;
     }
 }
 
 .decoration__mask {
-    display: none;
     width: 100px;
-    height: 100%;
+    height: 484px;
     position: absolute;
-    bottom: 25px;
+    top: 0px;
     left: -9px;
     background: #5166b3;
 
     @media #{$large} {
+        height: 100%;
+        top: auto;
+        bottom: 0px;
         display: block;
     }
 }
